@@ -10,74 +10,65 @@ Brown: #4C2F27
     src: url(./fonts/Berserker-Regular.ttf);
 }
 body{
-    font-family: Berserker-Regular;
+    margin: 0;
     background-color: #0d1f2d;
-    color: #dddddd;
+    font-family: Berserker-Regular;
 }
+
+
 header{
-    padding: 20px 0;
+    width: 98%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
-.headBox{
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+
 }
-.headBox h1{
-    font-size: 30px;
-    margin-left: 10%;
-    top: 15%;
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    filter: invert(1);
+    padding-right: 10px;
 }
 nav{
-    position: absolute;
-    top: 15%;
-    right: 10%;
+    margin-right: 20px;
 }
-nav li{
-    list-style: none;
-    display: inline;
-    margin: 0 0 0 15px;
+nav a{
+    padding-right: 25px;
 }
 nav img{
     width: 30px;
-    height: 30px;
     filter: invert(1);
 }
 hr{
-    color: #4C2F27;
-    width: 100%;
+    width: 99%;
     border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, #0d1f2d, #4C2F27, #0d1f2d);
+    height: 1px;
+    background-image: linear-gradient(to right, #880808, #ffffff, #4C2F27);
 }
 
-/*header end*/
-/*Section 1*/
-main{
-    font-size: 20px;
-}
-main h2{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 70px;
-    font-size: 28px;
-}
-main div{
-    display: inline;
-    margin: 0 0 0 10px;
-}
-.about{
-    width: 40%;
-    margin-left: 10%;
-    position: absolute;
-    text-align: center;
-    padding-top: 100px;
-}
-.kratos{
-    position: relative;
-    height: 400px;
-    width: 300px;
-    float: right;
-    margin: 0 25%;
-    padding-bottom: 70px;
-}
 
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    nav{
+        padding: 10px 0px;
+        margin-right: 0;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
