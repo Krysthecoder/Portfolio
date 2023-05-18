@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Practice</title>
+</head>
+<body>
+    <header>
+        <a href="./Index.html" class="logo">
+            <img src="./images/pngwing.com.png">
+            <h1>The Kratosfer</h1>
+        </a>
+        <nav>
+            <a href="" class="icons"><img src="./images/git hub black.png"></a>
+            <a href="" class="icons"><img src="./images/linkedin.png"></a>
+            <a href="" class="icons"><img src="./images/contac.png"></a>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <div>
+            <h2>Java Script Exersices</h2>
+            <p>Hello here you will see a bunch of games and exercises i did during my basic programing classes</p>
+        </div>
+        <div>
+            <h3>Programa de adivinacion</h3>
+            <br>
+            <br>
+            <script>
+                function saltarLinea() {
+                    document.write("<br>");
+                    document.write("<br>");
+                }
+                function imprimir(frase) {
+                    document.write(frase);
+                    saltarLinea();
+                }
+                var numeroPensado = Math.round(Math.random()*5);
+                var intentos = 3;
+                var contador = 1;
+                while (contador <= intentos){
+                    var numeroLanzado = parseInt(prompt("ingrese enter 0-10"));
+                    if (numeroPensado == numeroLanzado){
+                        alert("usted acerto y solo te tomo " + contador + " intentos, el numero era " + numeroPensado);
+                        break;
+                    }
+                    
+                    else {
+                        alert("Se equivovo");
+                    }
+                    contador++
+                }
+                if (numeroPensado == numeroLanzado){
+                    imprimir("usted acerto y solo te tomo " + contador + " intentos. el numero era " + numeroPensado);
+                }
+                else {
+                    imprimir("Se equivico el numero correcto era " + numeroPensado);
+                }
+                imprimir("Fin");
+            </script>
+        </div>
+    </main>
+</body>
+</html>
