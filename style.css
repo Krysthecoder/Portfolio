@@ -30,8 +30,8 @@ header{
     color: #ffffff;
     text-decoration: none;
     margin-left: 20px;
-
 }
+
 .logo img{
     width: 60px;
     height: 60px;
@@ -44,6 +44,12 @@ nav{
 }
 nav a{
     padding-right: 25px;
+}
+.icons img{
+    transition: 1s all;
+}
+.icons img:hover{
+    transform: scale(1.2);
 }
 nav img{
     width: 30px;
