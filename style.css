@@ -1,0 +1,158 @@
+body{
+    font-family: 'Inter', sans-serif;
+    color: #464646;
+    background-color: #F5F5F5;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    font-size: 16px;
+    padding: 32px 0px 32px 0px;
+    color: #464646;
+}
+a:link, a:visited{
+    text-decoration: none;    
+    color: #464646;
+}
+.mini-head{
+    padding: 32px 0px 32px 0px;
+    margin: 0 15% 0 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.topics-shortcuts{
+    width: 50%;
+}
+.topics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.attract-inside{
+    width: 100%;
+    height: 368px;
+    display: flex;
+    margin: 5% 15% 0 15%;
+    align-items: center;
+}
+.selling-art{
+    width: 50%;
+    height: 246px;
+    margin-top: 30px;
+}
+.selling-art h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.selling-art p{
+    font-weight: 400;
+    margin-top: 25px;
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    margin-top: 20px;
+}
+.main-picture{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
+.about-me, .Education{
+    width: 100%;
+    height: 383px;
+    background-color: #EAF2FD;
+    margin-top: 5%;
+}
+.inside-me{
+    margin: 0 15% 0 15%;
+    padding: 5% 0;
+    width: 50%;
+}
+.inside-me p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.skills, .hobbies, .conding-exp{
+    width: 100%;
+}
+.inside-section{
+    height: 244px;
+    margin: 0 15% 0 15%;
+    padding-top: 5%;
+}
+.inside-section h2{
+    text-align: center;
+}
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5%;
+}
+.block{
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+    transition: 1s all;
+    border-radius: 15px;
+}
+.block:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.block h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+.block img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+}
+.Education{
+    width: 100%;
+    height: 630px;
+    background-color: #EAF2FD;
+    margin-top: 5%;
+}
+.block2{
+    width: 368px;
+    height: 286px;
+    background-color: #ffffff;
+    transition: 1s all;
+}
+.block2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info h3{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 25px;
+    width: 286px;
+}
+.info p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.main-container{
+    display: flex;
+    padding: 5% 0;
+}
+.main-container img{
+    width: 50%;
+}
+.main-container
