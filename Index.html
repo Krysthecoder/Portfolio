@@ -13,17 +13,16 @@
 <body>
     <header>
         <div class="mini-head">
-            <a href="Index.html" class="class">
+            <a href="Index.html" class="internal-links">
                 <h1>Krysthopher Ruiz</h1>
             </a>
             <nav class="topics-shortcuts">
                 <ul class="topics">
-                    <li class="topic">About me</li>
-                    <li class="topic">Skills</li>
-                    <li class="topic">Hobbies</li>
-                    <li class="topic">Education</li>
-                    <li class="topic">Proyects</li>
-                    <li class="topic">Krysthopher@gmail.com</li>
+                    <li class="topic internal-links"><a href="#about">About me</a></li>
+                    <li class="topic internal-links"><a href="#skills">Skills</a></li>
+                    <li class="topic internal-links"><a href="#Education">Education</a></li>
+                    <li class="topic internal-links"><a href="#Proyects">Proyects</a></li>
+                    <li class="topic internal-links"><a href="#Contact">Krysthopher@gmail.com</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,15 +34,15 @@
                     <p>Soy formado en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
                     <ul class="pages">
                         <li class="page"><a href="https://github.com/Krysthecoder" target="_blank" rel="noopener noreferrer">
-                            Github</a></li>
-                        <li class="page"><a href="https://www.linkedin.com/in/krysthopher-ruiz" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
-                        <li class="page">Instagram</li>
+                            Github</a><img src="./images/arrow.png" alt=""></li>
+                        <li class="page"><a href="https://www.linkedin.com/in/krysthopher-ruiz" target="_blank" rel="noopener noreferrer">Linkedin</a><img src="./images/arrow.png" alt=""></li>
+                        <li class="page"><a href="https://www.instagram.com/krys_ru/">Instagram</a><img src="./images/arrow.png" alt=""></li>
                     </ul>
                 </div>
                 <img src="./images/gato.jpg" alt="" class="main-picture">
             </div>
         </div>
-        <div class="about-me">
+        <div class="about-me" id="about">
             <div class="inside-me">
                 <h2 class="about">About me:</h2>
                 <p class="aboutme-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
@@ -52,7 +51,7 @@
                 </p>
             </div>
         </div>
-        <div class="skills">
+        <div class="skills" id="skills">
             <div class="inside-section">
                 <h2>Skills</h2>
                 <ul class="blocks">
@@ -79,7 +78,7 @@
                 </ul>
             </div>
         </div>
-        <div class="hobbies">
+        <div class="hobbies" id="Hobbies">
             <div class="inside-section">
                 <h2>hobbies</h2>
                 <ul class="blocks">
@@ -88,29 +87,29 @@
                         <img src="./images/pngegg.png" alt="">
                     </li>
                     <li class="block">
-                        <h3>Youtube</h3>
-                        <img src="" alt="">
+                        <h3>Podcast</h3>
+                        <img src="./images/podcast.png" alt="">
                     </li>
                     <li class="block">
                         <h3>MTB</h3>
-                        <img src="" alt="">
+                        <img src="./images/mtb.png" alt="">
                     </li>
                     <li class="block">
                         <h3>Swiming</h3>
-                        <img src="" alt="">
+                        <img src="./images/swim.png" alt="">
                     </li>
                     <li class="block">
                         <h3>Gym</h3>
-                        <img src="" alt="">
+                        <img src="./images/press.png" alt="">
                     </li>
                     <li class="block">
                         <h3>Studying</h3>
-                        <img src="" alt="">
+                        <img src="./images/study.png" alt="">
                     </li>
                 </ul>
             </div>
         </div> 
-        <div class="Education">
+        <div class="Education" id="Education">
             <div class="inside-section">
                 <h2>Education</h2>
                 <ul class="blocks">
@@ -125,7 +124,7 @@
                     </li>
                     <li>
                         <div class="block2">
-                            <img class="alura" src="images/logo-aluraespanhol.svg" alt="">
+                            <img class="alura" src="images/alura.jpg" alt="">
                         </div>
                         <section class="info">
                             <h3>Front End Developer Oracle One</h3>
@@ -134,11 +133,11 @@
                     </li>
                     <li>
                         <div class="block2">
-                            <img src="" alt="">
+                            <img src="./images/codecamp.jpeg" class="FreeCodeCamp">
                         </div>
                         <section class="info">
                             <h3>JavaScript Algorithms and Data Structure</h3>
-                            <p>2022 - Coursera</p>
+                            <p>2022 - FreeCodeCamp</p>
                         </section>                        
                     </li>
                 </ul>
@@ -151,28 +150,28 @@
                     <img src="./images/crypter challenge.png" alt="">
                     <div class="project-info">
                         <h3>Text Crypter</h3>
-                        <p>Alura Challenge</p>
+                        <p>Oracle  Challenge</p>
                         <div class="buttons">
-                            <button class="button"><a href="https://github.com/Krysthecoder/Encrypter-Challenge" target="_blank">
+                            <a href="https://github.com/Krysthecoder/Encrypter-Challenge" target="_blank"><button class="button">
                                 Repository
-                            </a></button>
-                            <button class="button"><a href="https://krysthecoder.github.io/Encrypter-Challenge/" target="_blank">
-                                Try it.
-                            </a></button>
+                            </button></a>
+                            <a href="https://krysthecoder.github.io/Encrypter-Challenge/" target="_blank"><button class="button button-right">
+                                Try it
+                            </button></a>
                         </div>
                     </div>
                 </div>
                 <div class="projects">
                     <div class="project-info">
-                        <h3>Text Crypter</h3>
-                        <p>Alura Challenge</p>
+                        <h3>AluraGeek</h3>
+                        <p>Ecommerce website with basic JS</p>
                         <div class="buttons">
-                            <button class="button"><a href="https://github.com/Krysthecoder/Encrypter-Challenge" target="_blank">
+                            <a href="https://github.com/Krysthecoder/Encrypter-Challenge" target="_blank"><button class="button">
                                 Repository
-                            </a></button>
-                            <button class="button"><a href="https://krysthecoder.github.io/Encrypter-Challenge/" target="_blank">
-                                Try it.
-                            </a></button>
+                            </button></a>
+                            <a href="https://krysthecoder.github.io/Encrypter-Challenge/" target="_blank"><button class="button button-right">
+                                Try it
+                            </button></a>
                         </div>
                     </div>
                     <img src="./images/crypter challenge.png" alt="">
@@ -180,19 +179,40 @@
             </div>
         </section>
         <footer>
-                <div class="contact-form">
-                    <div class="contact-img"><p>img</p></div>
+                <div class="contact-form" id="Contact">
+                    <img src="./images/contact img.jpg" class="contact-img alt="">
                     <div class="contact">
                         <h2>Contact me</h2>
-                        <p>would like to contact me?</p>
-                        <p>Please complete the form below or send me a direct message with the desired platform below this form.</p>
-                        <input type="text" class="Form-name">
-                        <input type="text" class="email-form">
-                        <input type="text" class="About-form">
-                        <input type="text" class="message-Form">
-                        <button><p>Send</p></button>
+                        <p>Would like to contact me?</p>
+                        <p>Please complete the form below and I will contact you as soon as posible.</p>
+                    
+                        <div class="form">
+                            <div class="wrapper">
+                                <input type="text" class="first-content" id="subdomaintwo" value="Name" readonly="readonly" />
+                                <input type="text" class="inputarea" id="subdomain" />
+                            </div>
+    
+                            <div class="wrapper">
+                                <input type="text" class="first-content" id="subdomaintwo" value="E-Mail" readonly="readonly" />
+                                <input type="text" class="inputarea" id="subdomain" />
+                            </div>
+    
+                            <div class="wrapper">
+                                <input type="text" class="first-content" id="subdomaintwo" value="About" readonly="readonly" />
+                                <input type="text" class="inputarea" id="subdomain" />
+                            </div>
+    
+    
+                            <div class="wrapper">
+                                <input type="text" class="first-content" id="subdomaintwo" value="Message" readonly="readonly" />
+                                <textarea name="Message" id="" cols="30" rows="9" class="message"></textarea>
+                            </div>
+                        </div>
+                        
+                        <button>Send</button>
                     </div>
                 </div>
+                
         </footer>
 </body>
 </html>
