@@ -49,7 +49,7 @@ a:link, a:visited{
 .mini-head{
     padding: 32px 0px 32px 0px;
     margin: 0 15% 0 15%;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
 }
@@ -61,17 +61,17 @@ a:link, a:visited{
     justify-content: space-between;
 }
 .attract-inside{
-    width: 100%;
+    width: 100vw;
     height: 368px;
     display: flex;
     margin: 5% 15% 0 15%;
     align-items: center;
 }
 .attract-inside img{
-    margin-left: 2%;
+    padding-left: 1rem;
 }
 .selling-art{
-    width: 50%;
+    width: 50vw;
     height: 246px;
     margin-top: 30px;
 }
@@ -99,8 +99,7 @@ a:link, a:visited{
     scale: 1.15;
 }
 .main-picture{
-    width: 368px;
-    height: 368px;
+    width: 360px;
     border-radius: 50%;
 }
 .about-me, .Education{
@@ -342,3 +341,10 @@ footer{
     cursor: pointer;
 }
 
+@media screen and (max-width:768px){
+
+}
+
+@media screen and (max-width: 375px){
+
+}
