@@ -1,0 +1,11 @@
+.info h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-top: 25px;
+    width: 286px;
+}
+.info p{
+    padding-top: 10px;
+    font-size: 1em;
+    font-weight: 500;
+}

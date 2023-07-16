@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    font-size: 1empx;
+    padding: 1rem 0px 1rem 0px;
+    color: #464646;
+}
+
+.header__content{
+    padding: 32px 0px 32px 0px;
+    margin: 0 15% 0 15%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}

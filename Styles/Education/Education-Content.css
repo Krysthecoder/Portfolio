@@ -1,0 +1,9 @@
+.education__content{
+    height: 244px;
+    margin: 0 15% 0 15%;
+    padding-top: 5%;
+}
+
+.education__content h2{
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.presentation__list__Content{
+    transition: .3s;
+}
+.presentation__list__Content:hover{
+    scale: 1.15;
+}

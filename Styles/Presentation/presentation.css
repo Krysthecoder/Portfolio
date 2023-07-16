@@ -1,0 +1,7 @@
+.presentation{
+    width: 100vw;
+    height: 368px;
+    display: flex;
+    margin: 5% 15% 0 15%;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+
+
+.project__button{
+    padding: 16px;
+    border: solid #2a7ae4;
+    font-size: 1em;
+    font-weight: 400;
+    width: 120px;
+    border-radius: 15px;
+    transition: .4s;
+    margin-top: 10%;
+}
+.project__button:hover{
+    cursor: url(./images/espada\ gif.gif), auto;
+    
+    scale: 1.20;
+}
+.project__button a{
+    color: #2a7ae4
+}
+.button-right{
+    background-color: #2a7ae4;
+    margin-left: 30px;
+}
+.button-right{
+    color: #ffffff;
+}

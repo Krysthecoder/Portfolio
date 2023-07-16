@@ -1,0 +1,5 @@
+.education__content__blocks{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5%;
+}

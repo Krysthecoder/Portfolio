@@ -1,0 +1,23 @@
+.Cotent__item{
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+    transition: 1s all;
+    border-radius: 15px;
+}
+.Cotent__item:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.Cotent__item h3{
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+.Cotent__item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+}

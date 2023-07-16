@@ -1,0 +1,30 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #464646;
+    background-color: #F5F5F5;
+    overflow-x: hidden;
+    font-size: 16px;
+    cursor: url(./images/espada.png), auto;
+}
+h1{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 2em;
+    font-weight: 700;
+}
+a:link, a:visited{
+    text-decoration: none;    
+    color: #464646;
+}
+.page img{
+    margin-left: 10px;
+}
+.container{
+    width: 100%;
+}
+footer{
+    
+}

@@ -1,0 +1,45 @@
+
+.contacform {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.contacform input{
+    border: none;
+}
+
+.contacform .first-content{
+    font-size: .9em;
+    font-weight: 400;
+    color: #a2a2a2;
+    padding: 5px 0 0 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.contacform .inputarea{
+    font-size: 1em;
+    height: 20px;
+    font-weight: 400;
+    color: #464646;
+    padding: 5px 0 5px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.contacform input:focus, .contacform input:focus{
+    outline: none;
+    border-bottom: 2px solid #2a7ae4;
+}
+.contacform .message{
+    margin-bottom: 10px;
+    border: none;
+}
+.contacform textarea{
+    padding: 5px 0 0 15PX;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+.contacform .message:focus{
+    outline: none;
+    border-bottom: 2px solid #2a7ae4;
+}

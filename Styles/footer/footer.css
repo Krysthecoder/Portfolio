@@ -1,0 +1,18 @@
+footer{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.footer__Content{
+    font-weight: 400;
+    font-size: 1em;
+}
+.footer__main{
+    font-weight: 800;
+}
+.footer__Content--year{
+    margin-top: 10px;
+    font-weight: 500;
+}
