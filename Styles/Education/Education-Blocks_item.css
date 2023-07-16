@@ -16,3 +16,21 @@
 .FreeCodeCamp{
     width: 290px;
 }
+
+@media screen and (max-width: 768px) {
+    .education__blocks__Item{
+        width: 220px;
+        height: 150px;
+        margin: 0;
+    }
+    .education__blocks__Item img{
+        width: 100px;
+        padding-top: 25px;
+    }
+    .alura{
+        padding-top: 0;
+    }
+    .FreeCodeCamp{
+        padding-top: 0;
+    }
+}

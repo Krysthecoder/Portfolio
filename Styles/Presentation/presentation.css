@@ -5,3 +5,9 @@
     margin: 5% 15% 0 15%;
     align-items: center;
 }
+
+@media  screen and (max-width: 768px) {
+    .presentation{
+        height: 268px;
+    }
+}

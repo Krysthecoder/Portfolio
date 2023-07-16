@@ -3,3 +3,9 @@
     height: 593px;
     border-radius: 3%;
 }
+
+@media screen and (max-width: 768px) {
+    .contactme__img{
+        display: none;
+    }
+}

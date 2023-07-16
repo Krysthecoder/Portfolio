@@ -3,3 +3,9 @@
     justify-content: space-between;
     padding-top: 2.5%;
 }
+
+@media screen and (max-width: 768px) {
+    .education__content__blocks{
+        width: 100vw;
+    }
+}

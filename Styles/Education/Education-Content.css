@@ -7,3 +7,10 @@
 .education__content h2{
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .education__content{
+        width: 100vw;
+        margin: 0 ; 
+    }
+}

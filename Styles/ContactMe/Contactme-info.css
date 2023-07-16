@@ -9,3 +9,9 @@
 .contact h2{
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .contact{
+        margin: 0;
+    }
+}

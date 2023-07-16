@@ -9,3 +9,17 @@
     font-size: 1em;
     font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+    .info h3{
+        font-size: 1em;
+        font-weight: 700;
+        padding-top: 25px;
+        width: 260px;
+    }
+    .info p{
+        padding-top: 15px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

@@ -1,6 +1,12 @@
 .AboutMe{
-    width: 100%;
+    width: 100vw;
     height: 383px;
     background-color: #EAF2FD;
     margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .AboutMe{
+        height: 283px;
+    }
 }

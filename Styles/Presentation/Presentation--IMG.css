@@ -1,4 +1,16 @@
 .presentation__Picture{
-    width: 20rem;
+    width: 20vw;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1400px){
+    .presentation__Picture{
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .presentation__Picture{
+        width: 30vw;
+    }
 }

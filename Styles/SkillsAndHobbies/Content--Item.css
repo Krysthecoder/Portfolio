@@ -4,6 +4,8 @@
     background-color: #ffffff;
     transition: 1s all;
     border-radius: 15px;
+    margin-right: 1rem;
+    flex-wrap: wrap;
 }
 .Cotent__item:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -20,4 +22,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .Cotent__item{
+        height: 118px;
+        width: 250px;
+        margin-right: 1rem;
+        flex-wrap: wrap;
+    }
 }
